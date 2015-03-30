@@ -1,0 +1,18 @@
+{
+  "name": "cdly",
+  "description": "",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Matthew Natalier",
+  "scripts": {
+    "start": "node_modules/.bin/coffee src/cdly.coffee"
+  },
+  "dependencies": {
+    "coffee-script": "~1.7.1",
+    "aws-sdk": "~2.1.18",
+    "osenv": "~0.1.0",
+    "jmespath": "~0.10.0",
+    "underscore": "~1.8.2",
+    "commander": "~2.7.1"
+  }
+}
